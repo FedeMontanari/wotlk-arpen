@@ -121,6 +121,7 @@ export default function App() {
       <h1>WoW WOTLK ArPen Rating Calculator</h1>
       <div id="form">
         <form>
+          <label htmlFor="arpen">Your ArPen Rating here:</label>
           <input
             type="number"
             name="arpen"
