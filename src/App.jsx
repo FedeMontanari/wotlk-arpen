@@ -28,6 +28,8 @@ export default function App() {
     });
   }
 
+  //Issue where data doesnt update if you ONLY change arpen rating input
+
   const [loading, setLoading] = useState(true);
 
   const bossArmor = 10643;
@@ -168,6 +170,16 @@ export default function App() {
         </form>
       </div>
       <div id="results" hidden></div>
+      <div className="madeBy">
+        <p>
+          Made by{" "}
+          <img
+            src="https://pugfinder.gg/images/icons/classes/warrior.png"
+            alt="Warrior class logo"
+          />{" "}
+          Yakisieras - Frostmourne
+        </p>
+      </div>
     </div>
   );
 }
